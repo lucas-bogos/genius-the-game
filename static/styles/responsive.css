@@ -1,0 +1,55 @@
+@media (min-width: 375px) {
+    .genius {
+        width: 250px;
+        height: 250px;
+    }
+
+    footer table thead th figure img {
+        width: 10px;
+        height: 10px;
+    }
+
+    figcaption, td {
+        font-size: 8pt;
+    }
+}
+
+@media (min-width: 425px) {
+    .genius {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .genius {
+        width: 400px;
+        height: 400px;
+    }
+
+    footer table thead th figure img {
+        width: 15px;
+        height: 15px;
+    }
+
+    figcaption, td {
+        font-size: 12pt;
+    }
+}
+
+@media (min-width: 1024px) {
+    .genius {
+        width: 480px;
+        height: 480px;
+    }
+
+    footer table thead th figure img {
+        width: 15px;
+        height: 15px;
+    }
+    figcaption, td {
+        font-size: 12pt;
+    }
+    
+
+}

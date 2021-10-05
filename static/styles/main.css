@@ -1,0 +1,84 @@
+:root {
+    --white-color: rgb(209, 209, 209);
+    --blue-color: blue;
+    --red-color: red;
+    --yellow-color: yellow;
+    --green-color: green;
+    --border-color: rgb(255, 115, 0);
+}
+
+header {
+    height: 60px;
+}
+
+body {
+    margin: 0; padding: 0;
+    background-color: var(--white-color);
+}
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: 
+    'Areagreen   Areared'
+    'Areayellow  Areablue';
+    grid-gap: 10px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.blue {
+    grid-area: Areablue;
+    background-color: var(--blue-color);
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: Areared;
+    background-color: var(--red-color);
+    border-top-right-radius: 100%;
+}
+
+.green {
+    grid-area: Areagreen;
+    background-color: var(--green-color);
+    border-top-left-radius: 100%;
+}
+
+.yellow {
+    grid-area: Areayellow;
+    background-color: var(--yellow-color);
+    border-bottom-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.4;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+footer table thead th figure img {
+    width: 10px;
+    height: 10px;
+}
+
+table {
+    text-align: center;
+    font-size: 6px;
+}
