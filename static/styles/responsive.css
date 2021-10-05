@@ -1,7 +1,7 @@
 @media (min-width: 375px) {
     .genius {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
     }
 
     footer table thead th figure img {
@@ -16,15 +16,15 @@
 
 @media (min-width: 425px) {
     .genius {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
     .genius {
-        width: 400px;
-        height: 400px;
+        width: 450px;
+        height: 450px;
     }
 
     footer table thead th figure img {
